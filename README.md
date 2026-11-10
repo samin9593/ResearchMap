@@ -26,6 +26,12 @@ ResearchMap is a small Python desktop project for exploring academic paper title
 
 If you need to check Tk support, run `python -m tkinter` in the activated environment. It should open a small test window.
 
+## Platform compatibility
+
+ResearchMap has been developed and tested on macOS. The Python source code may also work on Windows and Linux, but these platforms have not been tested.
+
+The packaged `.app` version is built specifically for macOS and cannot run on Windows.
+
 ## CSV format
 
 Save the file as a comma-separated UTF-8 CSV with `title`, `abstract`, and `year` headers. Titles are required. Abstracts and years may be blank. When supplied, a year must contain four digits. Quote fields containing commas or line breaks. The app accepts up to 500 papers per import and ignores extra columns.
